@@ -11,7 +11,6 @@ sass/*
 !sass/theme
 
 !fonts/
-fonts/*
-!fonts/gotham
+fonts/*webfont*
 
 !page-templates/
