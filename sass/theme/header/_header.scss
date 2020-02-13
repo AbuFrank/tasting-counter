@@ -1,0 +1,23 @@
+#main-nav {
+	height: 85px;
+
+	.container {
+		justify-content: center;
+	}
+
+	.navbar-brand {
+		margin-right: 0;
+		padding: 0;
+	}
+
+	@include media-breakpoint-up(md) {
+		height: 117px;
+		flex-wrap: nowrap;
+	}
+
+	// custom toggler background
+	.navbar-toggler-icon {
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAnCAYAAABT7SsqAAAA7ElEQVRoQ+2XMRLCMAwEfZ+jhhJew2tCCS08jPYy9GEkZ5SJFB+tjXyrlRNAG+yDwXibgI9uXIZl+GAdcI00yXsFbgBmTi/ws7V2zg4NwOQxN/wgSQo4o+1Iw+bdyNCAsDucASYqg+sORx2WoY6AM1jYMoMML3WX5HXLrkfVBvCwarkMk6RVKMH6C8DFyiHgPyM9nOHJGpUM6wBuVg7XSFtFKq0LuJKtNVlleE3XKn3HZZjkqQIUgI+V0ws83HtYwNbo7LAe+lv6vQNA75HfsD8PvSdn3u96aGUG6M0m4N6OVdsvw9WM9eYdzvAMeaNDKFaGySMAAAAASUVORK5CYII=);
+	}
+
+}

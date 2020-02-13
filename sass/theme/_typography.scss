@@ -1,0 +1,108 @@
+//
+// Fonts
+//
+
+// Gotham
+
+$gotham-font-path:   "../fonts/gotham";
+
+@font-face {
+	font-family: "Gotham Book";
+	src: url('#{$gotham-font-path}/Gotham-Book.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "Gotham Light";
+	src: url('#{$gotham-font-path}/Gotham-Light.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "Gotham Medium";
+	src: url('#{$gotham-font-path}/Gotham-Medium.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "Gotham Thin";
+	src: url('#{$gotham-font-path}/Gotham-Thin.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "Gotham Ultra";
+	src: url('#{$gotham-font-path}/Gotham-Ultra.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "GothamN Black";
+	src: url('#{$gotham-font-path}/GothamNarrow-Black.otf') format('opentype');
+}
+@font-face {
+	font-family: "GothamN Book";
+	src: url('#{$gotham-font-path}/GothamNarrow-Book.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "GothamN Thin";
+	src: url('#{$gotham-font-path}/GothamNarrow-Thin.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "GothamN Ultra";
+	src: url('#{$gotham-font-path}/GothamNarrow-Ultra.otf') format('opentype'); 
+}
+
+// Site Title
+.navbar-brand {
+	font-family: "Gotham Medium";
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 2.7px;
+	line-height: 18px;
+	text-align: center;
+	@include media-breakpoint-up(lg) {
+		font-size: 22px;
+		letter-spacing: 3.3px;
+		line-height: 22px;
+	}
+}
+
+// Montserrat
+
+$montserrat-font-path: "../fonts/montserrat";
+
+@font-face {
+	font-family: "Montserrat";
+	src: url('#{$montserrat-font-path}/Montserrat-Regular.ttf') format('truetype'); 
+	font-weight: 500;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url('#{$montserrat-font-path}/Montserrat-Medium.ttf') format('truetype'); 
+	font-weight: 600;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url('#{$montserrat-font-path}/Montserrat-Bold.ttf') format('truetype'); 
+	font-weight: 800;
+}
+
+h1.cb-block-header {
+	font-family: "Montserrat";
+	font-size: 78px;
+	font-weight: 600;
+	letter-spacing: 6px;
+	line-height: 80px;
+
+	strong {
+		font-weight: 800;
+	}
+}
+
+// Roboto
+
+$roboto-font-path: "../fonts/roboto";
+
+@font-face {
+	font-family: "Roboto";
+	src: url('#{$roboto-font-path}/Roboto-Regular.ttf') format('truetype'); 
+	font-weight: regular;
+}
+
+body {
+	font-family: "Roboto";
+	font-weight: regular;
+	font-size: 18px;
+	line-height: 34px;
+}
